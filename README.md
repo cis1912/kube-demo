@@ -29,9 +29,9 @@ In this demo, we'll be using `kubectl` to create some resources and interact wit
 $ kubectl run lab-2048 --image=alexwhen/docker-2048 --port=80
 ```
 
-Now use `kubectl get pods` to see our list of running deployments. If the prior command worked, you should see the 2048 deployment!
+Now use `kubectl get pods` to see our list of running pods. If the prior command worked, you should see the 2048 pod!
 
-Now, use `kubectl describe pod lab-2048` to get more detailed information about our deployment. Note the events on the deployment - they show you information about what happened while the deployment was spinning up.
+Now, use `kubectl describe pod lab-2048` to get more detailed information about our pod. Note the events on the pod - they show you information about what happened while the pod was spinning up.
 
 ### Kubernetes Actions
 
