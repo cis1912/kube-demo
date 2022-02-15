@@ -51,6 +51,8 @@ $ kubectl port-forward pod/lab-2048 8080:80
 
 As we mentioned, applications are typically exposed through a service in Kubernetes. Now, figure out the appropriate `kubectl` command to expose 2048 and then port forward to the service. [The docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands) might be helpful.
 
+Note that you don't need to use `kubectl create service`. Kubectl provides you an easier command to use to expose the pod.
+
 If you've exposed the application correctly, you should be able to port forward to the service and see your application:
 
 ```
