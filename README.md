@@ -13,13 +13,13 @@ Time to toy around with Kubernetes! In this lab, we'll play around with Kube and
 First, let's create our `kind` cluster and configure `kubectl` to use it:
 
 ```
-$ kind create cluster --name cis188
-$ kubectl config use-context kind-cis188
+$ kind create cluster --name cis1912
+$ kubectl config use-context kind-cis1912
 ```
 
 ### Kube Tricks
 
-We've provided a cheatsheet with basic guides for debugging Kubernetes on our [Kube Tricks](https://cis188.org/resources/kube_tricks/) page. Look there for help both here and on the homeworks.
+We've provided a cheatsheet with basic guides for debugging Kubernetes on our [Kube Tricks](https://cis1912.org/resources/kube_tricks/) page. Look there for help both here and on the homeworks.
 
 ## Demo
 
@@ -84,4 +84,4 @@ In the homework for this week, you'll be doing the same stuff you're doing here 
 
 ### Cleanup
 
-You can use `kubectl delete` to delete individual resources in your cluster or `kind delete cluster --name cis188` to delete the whole cluster.
+You can use `kubectl delete` to delete individual resources in your cluster or `kind delete cluster --name cis1912` to delete the whole cluster.
